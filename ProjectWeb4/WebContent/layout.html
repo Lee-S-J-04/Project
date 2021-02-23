@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style>
+*{
+	margin : 0;
+	padding : 0;
+	}
+ul, li{
+	list-style-type : none;
+	}
+a{
+	color : #fff;
+	text-decoration : none;
+	}
+/*==================================*/
+header{
+	position : fixed;
+	width : 100%;
+	text-align : center;
+	background-color : #000;
+	padding : 20px;
+	top : 0;
+	left : 0;
+	z-index : 10;
+	}
+header h1.logo{
+	color : #fff;
+	float : left;
+	}
+header ul.main{
+	color : #fff;
+	font-size : 25px;
+	text-align : center;
+	display : inline-block; /**/
+	}
+header ul li{
+	float : left;
+	padding : 0 35px;
+	}
+/*====================================*/
+#wrap{
+	width : 960px;
+	margin : 0 auto;
+	}
+div.top-block{
+	padding : 65px;
+	text-align : center;
+	}
+ul.top-menu a{
+	color : #000;
+	}
+ul.top-menu{
+	font-size : 22px;
+	text-align : center;
+	display : inline-block;
+	}
+ul.top-menu li{
+	float : left;
+	padding : 0 91px;
+	border-left:1px solid #8d8d8d;
+	}
+ul.top-menu li:nth-of-type(4){
+	border-right:1px solid #8d8d8d;
+	}
+
+	
+footer{
+	width : 100%;
+	height : 2000px;
+	background-color : red;
+	
+	text-align : center;
+	color : #fff;
+	font-size : 80px;
+	padding : 1000px 0;
+	}
+
+</style>
+
+</head>
+<body>
+<div id="wrap">
+	<header>
+		<h1 class="logo">
+			<a href="#">
+				로고
+			</a>
+		</h1>
+		
+		<ul class="main">
+			<li><a href="#">상점개설</a></li>
+			<li><a href="#">메뉴2</a></li>
+			<li><a href="#">메뉴3</a></li>
+		</ul>
+	</header>
+	
+	<div class="top-block"></div>
+	
+		<ul class="top-menu">
+			<li><a href="#">메뉴1</a></li>
+			<li><a href="#">메뉴2</a></li>
+			<li><a href="#">메뉴3</a></li>
+			<li><a href="#">메뉴4</a></li>
+		</ul>
+		
+<footer>스크롤테스트</footer>
+</div>
+
+
+</body>
+</html>
