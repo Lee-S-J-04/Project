@@ -1,0 +1,224 @@
+@charset "UTF-8";
+body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, select, table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    position: relative;
+    -webkit-text-size-adjust: none;
+    font-weight: 400;
+    
+}
+body, html {
+    overflow-anchor: none;
+}
+.container {
+    width: 1080px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    clear: both;
+    min-height: 800px;
+}
+.container:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+.content_view:not(:only-child) {
+    float: left;
+    width: 756px;
+}
+.content_view {
+    position: relative;
+    width: 756px;
+}
+.title_inner {
+    padding: 24px 0 7px 0;
+    font-weight: 400;
+}
+.SectionTitle .title {
+    line-height: 24px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #222;
+    font-family: arial,sans-serif;
+}
+
+.SectionTitle .txt {
+    padding-top: 4px;
+    font-size: 13px;
+    color: #666;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.CreateBlog {
+    padding-bottom: 100px;
+    font-size: 12px;
+}
+.CreateBlog .blog_input {
+    width: 100%;
+    border-collapse: collapse;
+    border-top: 1px solid #666;
+}
+.blind {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+caption {
+    text-align: -webkit-center;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.CreateBlog th {
+    border-bottom: 1px solid #eaeaea;
+    width: 115px;
+    text-align: center;
+    vertical-align: top;
+}
+.CreateBlog td {
+    padding: 16px 0 18px;
+    border-bottom: 1px solid #eaeaea;
+    color: #424242;
+}
+.CreateBlog .input_title {
+    position: relative;
+    display: block;
+    overflow: visible;
+    width: 67px;
+    height: 14px;
+    margin-left: 2px;
+}
+.CreateBlog .txt {
+    margin: 7px 0 -2px;
+    color: #929292;
+    font-size: 11px;
+    letter-spacing: -1px;
+}
+.CreateBlog .blog_input .byte {
+    right: 2px;
+    bottom: -15px;
+    width: 90px;
+    text-align: right;
+}
+.CreateBlog .byte strong {
+    display: inline-block;
+    vertical-align: top;
+    color: #f8641d;
+}
+.CreateBlog .blog_name .input_title {
+    margin-top: 25px;
+    background-position: 0 0;
+}
+.CreateBlog .blog_addr .input_title {
+    margin-top: 25px;
+    background-position: 0 0;
+}
+.CreateBlog .blog_public .input_title {
+    margin-top: 14px;
+    background-position: 0 0;
+}
+.CreateBlog .blog_description .input_title {
+    margin-top: 25px;
+    background-position: 0 0;
+}
+.blog_name .input_txt {
+    width: 631px;
+}
+.CreateBlog .input_txt {
+    height: 26px;
+    padding: 3px 0 0 9px;
+    border-top: 1px solid #bbb;
+    border-right: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    border-left: 1px solid #bbb;
+  	background: url(https://cafe.pstatic.net/img/section/bg_input.gif);
+    line-height: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #323232;
+    outline: none;
+    box-sizing: content-box;
+}
+.CreateBlog .input_area {
+    position: relative;
+}
+.CreateBlog .FormInputText {
+    display: inline-block;
+}
+.CreateBlog .blog_addr .input_area label {
+    display: inline-block;
+}
+.CreateBlog .blog_addr .input_txt {
+    width: 570px;
+    margin-left: 4px;
+}
+
+.CreateBlog .textarea_input {
+    width: 636px;
+    height: 45px;
+    padding: 2px 0 0 4px;
+    border-top: 1px solid #c5c5c5;
+    border-right: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    border-left: 1px solid #c5c5c5;
+    background: url(https://cafe.pstatic.net/img/section/bg_input.gif);
+    color: #424242;
+    line-height: 19px;
+    resize: vertical;
+    outline: none;
+}
+
+.CreateBlog .common_btn_form {
+    display: block;
+    padding-top: 20px;
+    font-size: 0;
+    text-align: center;
+}
+.CreateBlog .common_btn_form .btn {
+    min-width: 56px;
+    height: 36px;
+    margin: 0 2px;
+    padding: 0 12px;
+    line-height: 34px;
+   	cursor: pointer;
+}
+.CreateBlog .common_btn_form .btn, .CreateCafe .common_btn_form .btn2 {
+    display: inline-block;
+    border: 1px solid #d3d3d3;
+    background: #fff;
+    font-size: 13px;
+    vertical-align: top;
+    color: #222;
+    box-sizing: border-box;
+}
