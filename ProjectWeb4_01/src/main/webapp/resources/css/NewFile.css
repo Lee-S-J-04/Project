@@ -38,7 +38,7 @@ header ul li{
 	}
 /*====================================*/
 #wrap{
-	width : 960px;
+	width : 1200px;
 	margin : 0 auto;
 	}
 div.top-block{
@@ -65,13 +65,12 @@ ul.top-menu li:nth-of-type(4){
 	
 footer{
 	width : 100%;
-	height : 2000px;
+	height : 200px;
 	background-color : red;
-	
+	padding-top: 30px;
 	text-align : center;
 	color : #fff;
 	font-size : 80px;
-	padding : 1000px 0;
 	}
 
 </style>
