@@ -19,8 +19,8 @@
 		
 		<ul class="main">
 			<li><a href="#">상점개설</a></li>
-			<li><a href="#">메뉴2</a></li>
-			<li><a href="#">메뉴3</a></li>
+			<li><a href="commu">메뉴2</a></li>
+			<li><a href="buy">메뉴3</a></li>
 		</ul>
 	</header>
 	
